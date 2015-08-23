@@ -1,0 +1,30 @@
+#about{
+
+  height:900px;
+  //text-align: center;
+  h5{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+  }
+
+
+  .leadershipbox{
+
+    text-align: center;
+
+    div{
+      div{
+        border:1px solid #f9f9f9;
+        padding:20px;
+      }
+    }
+
+    #tom{
+      background-image: image-url("/prof.jpg");
+      background-size: cover;
+    }
+  }
+
+
+}

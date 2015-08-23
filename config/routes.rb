@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  root 'static#home'
+  match '/jobs', to: "static#jobs", via: 'get'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
