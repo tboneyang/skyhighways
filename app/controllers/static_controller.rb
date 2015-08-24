@@ -6,4 +6,8 @@ class StaticController < ApplicationController
   end
   def jobs
   end
+  def products
+  end
+  def news
+  end
 end
