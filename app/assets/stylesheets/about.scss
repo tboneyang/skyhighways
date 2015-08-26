@@ -1,6 +1,20 @@
+.actionbox{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background:black;
+  color:white;
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+}
+.missionbox{
+  min-height: 700px;
+  height:100vh;
+  position:relative;
+}
+
 #about{
-  background: #c9dbe9;
-	background: -webkit-linear-gradient(top, #c9dbe9 0%, #fff 47%);
 
   //cloud stuff
   .cloud {
@@ -134,9 +148,9 @@
     padding:0;
   }
   .abouttitle{
-    //padding-top: 170px;
+    padding-top: 10%;
     //margin-top: -140px;
-    padding-bottom: 100px;
+    padding-bottom: 10%;
     text-align: center;
   }
   .aboutmessagebox{
