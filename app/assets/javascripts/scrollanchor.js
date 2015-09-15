@@ -1,5 +1,5 @@
 var ready = function() {
-
+  /*
   var vid = document.getElementById("bgvid");
   var pauseButton = document.getElementById("pauseb");
 
@@ -13,7 +13,8 @@ var ready = function() {
   vid.pause();
   // to capture IE10
   vidFade();
-  });
+
+});
 
 
   pauseButton.addEventListener("click", function() {
@@ -25,7 +26,7 @@ var ready = function() {
       vid.pause();
       pauseButton.innerHTML = "PAUSED";
     }
-  })
+  })*/
 
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {

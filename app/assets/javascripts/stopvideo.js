@@ -1,3 +1,4 @@
+/*
 var vid = document.getElementById("bgvid");
 var pauseButton = document.getElementById("pauseb");
 
@@ -23,4 +24,4 @@ pauseButton.addEventListener("click", function() {
     vid.pause();
     pauseButton.innerHTML = "Paused";
   }
-})
+})*/
