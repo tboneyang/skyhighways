@@ -1,0 +1,60 @@
+.contacttitle{
+  text-align:center;
+  padding-top:100px;
+}
+
+#contact{
+  padding-top: 150px;
+  overflow-x:hidden;
+
+  #cform{
+    text-align:left;
+    position:absolute;
+    top:-100px;
+    background-image: image-url("/android.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left:-2000px;
+    width:250px;
+    height:400px;
+    padding-top:95px;
+    padding-left:55px;
+
+    //about the form
+    form{
+
+    }
+
+    textarea{
+      height:140px;
+      width:190px;
+    }
+  }
+
+  .mapimg{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    opacity: 0.1;
+  }
+  height:500px;
+  position:relative;
+  background:none;
+
+  .locationtable{
+
+    padding-top: 5%;
+    text-align: center;
+    div{
+        text-align: right;
+        padding-right: 18%;
+        a{
+          text-decoration: none;
+        }
+    }
+
+  }
+}
+
